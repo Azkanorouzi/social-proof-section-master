@@ -1,0 +1,121 @@
+/* colors */
+
+/* Very Dark Magenta: hsl(300, 43%, 22%)
+Soft Pink: hsl(333, 80%, 67%)
+
+### Neutral
+
+Dark Grayish Magenta: hsl(303, 10%, 53%)
+Light Grayish Magenta: hsl(300, 24%, 96%)
+White: hsl(0, 0%, 100%) */
+
+/* fonts */
+
+/* - Family: [Spartan](https://fonts.google.com/specimen/Spartan)
+- Weights: 400, 500, 700 */
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+*{
+ margin: 0px;
+ padding: 0px;
+box-sizing: border-box;
+font-size: 15px;
+font-family: 'Spartan', sans-serif;
+}
+/* layout */
+#layout{
+display: flex;
+padding: 12px;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+}
+/* grid layout end */
+/* colors */
+.main-header{
+ color:hsl(300, 43%, 22%);
+}
+.header-des{
+color: hsl(303, 10%, 53%);
+}
+#reviews div h1{
+font-weight: 700;
+}
+#reviews div{
+ background-color:hsl(300, 43%, 22%) ;
+ color: hsl(0, 0%, 100%);
+ margin-bottom: 15px;
+ border-radius: 5px;
+}
+#reviews div h3{
+color:hsl(333, 80%, 67%) ;
+font-weight: 400;
+}
+#reviews div p{
+  color:hsl(300, 24%, 96%) ;
+}
+
+/* colors end */
+
+/* header */
+#header .main-header{
+font-size: 35px;
+text-align: center;
+font-weight: 700;
+line-height: 34px;
+}
+#header .header-des{
+ text-align: center;
+ margin:20px 0px;
+ font-weight: 500;
+ padding: 1px;
+ line-height: 23px;
+}
+/* stars */
+#stars div{
+ margin: 10px 0px;
+ border-radius: 8px;
+ text-align: center;
+ width: 350px;
+ padding: 8px 0px;
+ color:hsl(300, 43%, 22%) ;
+  background-color:hsl(300, 24%, 92%) ;
+}
+#stars div .starss{
+ margin-bottom: 5px;
+ margin-top: 0px;
+}
+#stars .starbox{
+ transition: 500ms;
+}
+#stars .starbox:hover{
+box-shadow: 0px 0px 10px 3px;
+}
+#stars div .starss img{
+ margin: 3px;
+}
+/* stars end */
+
+#reviews div{
+ padding: 30px;
+}
+#reviews .review-img{
+border-radius: 50%;
+width: 50px;
+height: 50px;
+}
+#reviews div h1{
+position: relative;
+left: 70px;
+bottom: 40px;
+}
+#reviews div h3{
+position: relative;
+left: 70px;
+bottom: 35px;
+}
+#reviews div img{
+ position: relative;
+ top: 10px;
+}
+
+
